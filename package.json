@@ -1,8 +1,7 @@
-
 {
-  "name": "skate-game",
+  "name": "x-spaces-viewer",
   "private": true,
-  "version": "1.0.0",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,9 +9,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "three": "^0.157.0",
-    "@tweenjs/tween.js": "^21.0.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.2",
+    "react-query": "^3.39.3",
+    "react-select": "^5.7.4"
   },
   "devDependencies": {
-    "vite": "^4.4.11"
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.0",
+    "vite": "^5.0.0"
   }
+}
